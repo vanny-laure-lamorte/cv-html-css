@@ -1,0 +1,105 @@
+/* Les balises*/
+header {
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Khand', sans-serif;
+    color: #323b4b;
+    margin: auto
+}
+
+h2 {
+    font-size: 20px;
+    color: #323b4b;
+}
+
+h3 {
+    font-size: 15px;
+    color: #323b4b;
+}
+
+body {
+    font-family: 'Khand', sans-serif;
+    font-size: 18px;
+    background-color: #d5d5da;
+    padding: 2em;
+    color: #8b8888;
+    max-width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2640a1;
+    text-decoration: underline;
+}
+
+hr {
+    border-color: #2640a1;
+}
+
+li {
+    list-style: none;
+}
+
+/* Les classes*/
+
+.contact {
+    font-weight: 700;
+}
+
+.accentuate1 {
+    font-weight: 800;
+    font-size: 15px;
+    font-style: italic;
+    color: #2640a1;
+}
+
+.accentuate2 {
+    font-weight: 800;
+    color: #2640a1;
+}
+
+.description {
+    font-style: italic;
+    font-weight: 600;
+    color: #2640a1;
+}
+
+.logo-main:hover {
+    width: 200px;
+    height: 200px;
+    width: 100px;
+    height: 100px;
+    transition: width 1s, height 1s;
+}
+
+.logo-main {
+    height: 30px;
+    width: 30px;
+}
+
+.fa-brands,
+.fa-solid {
+    color: rgb(32, 31, 31);
+    font-size: 20px;
+}
+
+.text-contact,
+.text-footer {
+    padding: 0.5em;
+    color: rgb(97, 94, 94);
+}
+
+/* Les identifiants*/
+
+#photo-vl {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid white;
+}
